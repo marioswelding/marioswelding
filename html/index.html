@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="ico/favicon.png">
 
-    <title>Dangdosan modern construction template</title>
+    <title>Mario's Welding</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -35,6 +35,9 @@
     <!-- Custom bootstrap styles -->
     <link href="css/overwrite.css" rel="stylesheet">
 
+    <!-- Jssor Slider -->	
+	<link href="css/jssor.css" rel="stylesheet">	
+	
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
 
@@ -72,26 +75,38 @@
 		  window.onload = newLoad;
 	</script>
 	<!-- End preloading -->
-
+	
 	<!-- Start top section -->
 	<div class="top-section">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-5 col-sm-8">
+				<div class="col-md-4 col-sm-8">
 					<ul class="top-contact">
 						<li>
 							<i class="icon-tablet icon-circle"></i>
-							<h6>Call center</h6>
-							<span>+6221-4356-4456-62</span>
+							<h6>Call</h6>
+							<a href="tel:+1-210-387-1554">(210) 387-1554</a>
 						</li>
 						<li>
 							<i class="icon-envelope icon-circle"></i>
 							<h6>Email</h6>
-							<span>info@yourdomain.com</span>
+							<a href="mailto:marioguerra@marios-welding.com" target="_top">Send Mail</a>
 						</li>
 					</ul>
 				</div>
-				<div class="col-md-4 col-sm-4 col-md-offset-3">
+				<div class="col-md-4 col-sm-8">
+					<ul class="top-contact">
+						<li>
+							<i class="icon-facebook icon-circle"></i>							
+							<a href="https://www.facebook.com/MariosWelding210"><h6>Facebook</h6></a>
+						</li>
+						<li>
+							<i class="icon-googleplus icon-circle"></i>							
+							<a href="https://plus.google.com/114650581786016920751"><h6>Google Plus</h6></a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-4 col-sm-4 ">
 					<form id="search-form">
 						<fieldset class="search-wrapper">
 							<input type="text" class="search" name="search" id="search" placeholder="Search heare..." />
@@ -122,11 +137,11 @@
 					<ul class="nav navbar-nav">
 						<li class="scroll active"><a href="#home">Home</a></li>
 						<li class="scroll"><a href="#about">About</a></li>
-						<li class="scroll"><a href="#team">Team</a></li>
+						<!--<li class="scroll"><a href="#team">Team</a></li>-->
 						<li class="scroll"><a href="#services">Services</a></li>
 						<li class="scroll"><a href="#features">Features</a></li>
 						<li class="scroll"><a href="#gallery">Gallery</a></li>
-						<li><a href="blog.html">Blog</a></li>
+						<!--<li><a href="blog.html">Blog</a></li>-->
 						<li class="scroll"><a href="#contact">Contact</a></li>
 					</ul>
 				</div><!--/.nav-collapse -->
@@ -136,22 +151,55 @@
 	<!-- End navbar -->
 	
 	<!-- Start home -->
-		<section id="home" class="slider-wrapper text-center">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
-						<p class="title">Height quality</p>
-						<h3>Renovating your home</h3>
-					</div>
-					<div class="col-md-6 col-md-offset-3">	
+	<section id="home">
+        <!-- Jssor Slider Begin -->
+        <!-- To move inline styles to css file/block, please specify a class name for each element. --> 
+        <div id="slider2_container" class="slider2_container" style="height:1028px">
+            <!-- Slides Container -->
+            <div data-jssor="slides" class="slides" style="height:1028px">
+                <div>
+					<img data-jssor="image" src="img/slider/jssor/welding.jpg" alt="" />
+                    <!--<div data-jssor="caption" data-trans="ZMS|B" class="jos-cap" style="left:280px;top:190px;">
+						<img src="img/slider/jssor/worker1.png" alt="" />
+					</div>-->
+                    <div data-jssor="caption" data-trans="CLIP|LR" class="jos-cap jos-contain" style="left:290px;top:480px;">
+						<h3>We are Mario&#39s Welding</h3>
 						<p>
-						Ea his meis periculis, diam alterum vix at. Pri timeam phaedrum volutpat ne. Qui nemore percipit cu. Ei graecis moderatius quaerendum per, ex sint argumentum has.
+						A family-owned and operated business with it&#39s headquarters in San Antonio, TX.
 						</p>
-						<p class="btn-horizontal"><a href="#" class="btn btn-default btn-lg">Our services</a> <a href="#" class="btn btn-primary btn-lg">Get started</a></p>
 					</div>
-				</div>
-			</div>
-		</section> 
+					<a href="#about" data-jssor="caption" data-trans="CLIP|LR" class="jos-cap jos-btn" style="left:500px;top:628px;">Learn more</a>
+                </div>
+                <div>
+					<img data-jssor="image" src="img/slider/jssor/Welder_2.jpg" alt="" />
+                    <!--<div data-jssor="caption" data-trans="ZMS|B" class="jos-cap" style="left:880px;top:190px;">
+						<img src="img/slider/jssor/worker2.png" alt="" />
+					</div>-->
+                    <div data-jssor="caption" data-trans="CLIP|LR" class="jos-cap jos-contain" style="left:850px;top:480px;">
+						<h3>Any Job, Any Time</h3>
+						<p>
+						24-hour emergency service specialists are always available and professional. No matter the scale of the job, large or small, we get it done.
+						</p>
+					</div>
+					<a href="#services" data-jssor="caption" data-trans="CLIP|LR" class="jos-cap jos-btn" style="left:1100px;top:660px;">Learn more</a>
+                </div>
+                <div>
+					<img data-jssor="image" src="img/slider/jssor/Welder2.jpg" alt="" />
+                    <!--<div data-jssor="caption" data-trans="ZMS|B" class="jos-cap" style="left:250px;top:190px;">
+						<img src="img/slider/jssor/worker3.png" alt="" />
+					</div>-->
+                    <div data-jssor="caption" data-trans="CLIP|LR" class="jos-cap jos-contain" style="left:490px;top:440px;">
+						<h3>A Better Choice</h3>
+						<p>
+						Our reliable technicians and welders are experienced and certified in a wide variety of welding procedures and techniques. 
+						</p>
+					</div>
+					<a href="#features" data-jssor="caption" data-trans="CLIP|LR" class="jos-cap jos-btn" style="left:940px;top:625px;">Learn more</a>
+                </div>
+            </div>
+        </div>
+        <!-- Jssor Slider End -->
+	</section> 
 	<!-- End home -->
 	
     <div class="clearfix"></div> 
@@ -163,27 +211,27 @@
                 <div class="col-md-12">
 					<div class="item-box">
 						<i class="icon-bubbles4 icon-square icon-4x"></i>
-						<h5>Get In Touch</h5>
+						<h5>The right experts</h5>
 						<p>
-						Vis semper posidonium efficiantur at. Eu harum tation delenit has ad has.
+						From pipeline welding and fitting to NDT testing, we have the expertise to complete any job.
 						</p>
 					</div>
        
 					<div class="item-box action-box">
 						<i class="icon-wrench icon-square icon-4x"></i>
-						<h5>Renovation</h5>
+						<h5>Contact Us</h5>
 						<p>
-						Est ne dicant tritani efficiendi. Ei aliquid repudiare vel, ea pro discere eos.
+						Ready for us to help you with your project?
 						</p>
-						<a href="#" class="btn btn-primary">Get In Touch</a>
+						<a href="#contact" class="btn btn-primary">Get In Touch</a>
 					</div>
 
 
 					<div class="item-box">
 						<i class="icon-home3 icon-square icon-4x"></i>
-						<h5>Enjoy Home</h5>
+						<h5>Worry Free Service</h5>
 						<p>
-						Verear argumentum ea his, mei oblique omnesque periculis ea ius ad.
+						In our care, you never have to worry about lifting a finger.
 						</p>
 					</div>
                 </div>
@@ -208,27 +256,19 @@
 					<div class="contain">
                         <div class="row">
                             <div class="col-md-7">
-                                <!-- Start Video -->
-                                <div class="video-wrapper">
-									 <div class="video-contain">
-										<img src="img/img-video.jpg" class="img-video" alt="" />
-										<button class="start-video"></button>
-										<div class="video-container">
-											<div id="ytplayer" class="player"></div>
-										</div>
-									</div>
-                                </div>
-                                <!-- End Video -->
+								<img src="img/gallery/familywelding.jpg" alt="" width="500"/>
                             </div>
                             <div class="col-md-5">
-                                <h5>Omnes latine consetetur quo et est ne dicant tritani efficiendi.</h5>
+                                <h5>We are family. We are friends. We are here for you.</h5>
                                 <p>
-                                Ea cetero periculis persecuti nec, te soleat denique scribentur vel. Qui te assum putent. At qui elitr animal. Habemus lobortis pericula no vis. Uas mediocrem.
+                                It&#39s been proven that a family-owned business will consistently outperform almost every other type of business. Family&#45owned firms are more stable, have a longer time horizon and tend to have a high level of trust and commitment &#45 both to employees and customers &#45 because of how the company behaves reflects the family&#39s personal integrity.
 								</p>
 								<p>
-                                Intellegat at nec. Detraxit disputando vim an, ex movet corpora eam. soleat denique scribentur vel. Qui te assum putent.
-                                </p>
-                                <a href="#" class="btn btn-inverse">View our features</a>
+								Mario&#39s Welding is living proof of all of the above and more.
+								</p>
+								<p>
+								More important, family businesses are finely woven into the fabric of America. Mario&#39s Welding has been delivering honest service to our valued clients. We&#39re driven by consistent values like integrity, belief in investing in our employees and a passion to be respected by our clients as unquestionably the best welding company they will ever work with.
+								</p>
                             </div>
                         </div>
 					</div>
@@ -237,173 +277,6 @@
 		</div>
 	</div>
 	<!-- End about -->
-
-	<!-- Start twitter -->
-	<div class="dark-wrapper">
-		<div class="dark-overlay"></div>
-		<div class="container">
-			<div class="dark-section">
-				<div class="row">
-					<div class="icon-title">
-						<i class="icon-twitter4"></i>
-					</div>
-					<div class="col-md-7 col-md-offset-2">
-						<div class="twitter-wrapper">
-							<div id="tweecool" class="tweecool"></div>
-						</div>
-					</div>
-					<div class="tweet-follow">
-						<div class="follow-contain">
-							<h5>FOLLOW us</h5>
-							<span>@Dangdosan</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>	
-	<!-- End twitter -->
-	
-	<!-- Start team -->
-	<div id="team" class="wrapper half-gray-left">
-		<div class="container">
-			<div class="row">
-				<div class="heading">
-					<div>
-						<span>Behind dangdosan</span>
-						<h3>Our team</h3>
-					</div>
-				</div>
-				<div class="col-md-10">
-					<div class="contain wrap-team">
-                        <!-- Start Team Carousel -->
-                        <div id="owl-team" class="owl-carousel owl-theme">
-                            <!-- Start Team 01 -->
-                            <div class="item-team">
-                                <div class="wrap-img">
-                                    <div class="social-link">
-                                        <ul>
-                                            <li>
-                                                <a href="#"><i class="icon-facebook4"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="icon-twitter4"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="icon-google-plus"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <img src="img/team/team1.jpg" alt="">
-                                </div>
-                                <div class="content">
-                                    <h5>
-                                        <a href="#">
-                                            <small>Project Leader</small>
-                                            Apan Warpan
-                                        </a>    
-                                    </h5>
-                                </div>
-                            </div>
-                            <!-- End Team 01 -->
-                            <!-- Start Team 02 -->
-                            <div class="item-team">
-                                <div class="wrap-img">
-                                    <div class="social-link">
-                                        <ul>
-                                            <li>
-                                                <a href="#"><i class="icon-facebook4"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="icon-twitter4"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="icon-google-plus"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <img src="img/team/team2.jpg" alt="">
-                                </div>
-                                <div class="content">
-                                    <h5>
-                                        <a href="#">
-                                            <small>Builder</small>
-                                            Aam Kutik
-                                        </a>    
-                                    </h5>
-                                </div>
-                            </div>
-                            <!-- End Team 02 -->
-                            <!-- Start Team 03 -->
-                            <div class="item-team">
-                                <div class="wrap-img">
-                                    <div class="social-link">
-                                        <ul>
-                                            <li>
-                                                <a href="#"><i class="icon-facebook4"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="icon-twitter4"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="icon-google-plus"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <img src="img/team/team3.jpg" alt="">
-                                </div>
-                                <div class="content">
-                                    <h5>
-                                        <a href="#">
-                                            <small>Electric Man</small>
-                                            Idi Rosidi
-                                        </a>    
-                                    </h5>
-                                </div>
-                            </div>
-                            <!-- End Team 03 -->
-                            <!-- Start Team 04 -->
-                            <div class="item-team">
-                                <div class="wrap-img">
-                                    <div class="social-link">
-                                        <ul>
-                                            <li>
-                                                <a href="#"><i class="icon-facebook4"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="icon-twitter4"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="icon-google-plus"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <img src="img/team/team4.jpg" alt="">
-                                </div>
-                                <div class="content">
-                                    <h5>
-                                        <a href="#">
-                                            <small>Design iterior</small>
-                                            Babeh Rojak
-                                        </a>    
-                                    </h5>
-                                </div>
-                            </div>
-                            <!-- End Team 04 -->
-                        </div>
-                        <!-- End Team Carousel -->
-                        <!-- Start Navigation -->
-                        <div class="navigation nav-team">
-                          <a class="btn btn-prev prev-team"><i class="left"></i></a>
-                          <a class="btn btn-next next-team"><i class="right"></i></a>
-                        </div>
-                        <!-- End Navigation -->
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- End team -->	
 	
 	<!-- Start services -->
 	<div id="services" class="wrapper half-gray-right">
@@ -423,50 +296,56 @@
                                 <div class="row wrap-service">
                                     <div class="col-md-6 col-sm-6">
                                         <div class="item-service">
-                                            <i class="icon-hammer icon-text icon-4x"></i>
-                                            <h5>Renovation</h5>
+                                            <i class="icon-power icon-text icon-4x"></i>
+                                            <h5>Pipe Welding</h5>
                                             <p>
-                                                Ea cetero periculis persecuti nec, te soleat denique scribentur vel. Qui te assum putent qui elitr animal. Habemus lobortis pericula.
+                                                From pipeline welding and fitting to NDT testing, we have the expertise to complete any job. 
                                             </p>
-                                            <a href="#" class="btn btn-inverse">
-                                                Learn More
-                                            </a>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-sm-6">
                                         <div class="item-service">
-                                            <i class="icon-images icon-text icon-4x"></i>
-                                            <h5>Interior</h5>
+                                            <i class="icon-road icon-text icon-4x"></i>
+                                            <h5>Structural Welding</h5>
                                             <p>
-                                                Ea cetero periculis persecuti nec, te soleat denique scribentur vel. Qui te assum putent qui elitr animal. Habemus lobortis pericula.
+                                                Our team has extensive experience in custom fabrication of steel, stainless steel, and aluminum for the manufacturing industry.
                                             </p>
-                                            <a href="#" class="btn btn-inverse">
-                                                Learn More
-                                            </a>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-sm-6">
                                         <div class="item-service">
                                             <i class="icon-paint-format icon-text icon-4x"></i>
-                                            <h5>Painting</h5>
+                                            <h5>Painting and Sand Blasting</h5>
                                             <p>
-                                                Ea cetero periculis persecuti nec, te soleat denique scribentur vel. Qui te assum putent qui elitr animal. Habemus lobortis pericula.
+                                                 We use nothing but the best for all of our painting jobs. Our epoxy & polyurethane coatings ensure that you&#39ll be receiving the best results available, providing a heavy duty and durable coating 
                                             </p>
-                                            <a href="#" class="btn btn-inverse">
-                                                Learn More
-                                            </a>
                                         </div>
-                                    </div>
+                                    </div>									
                                     <div class="col-md-6 col-sm-6">
                                         <div class="item-service">
-                                            <i class="icon-power icon-text icon-4x"></i>
-                                            <h5>Electric</h5>
+                                            <i class="icon-truck icon-text icon-4x"></i>
+                                            <h5>Mobile Services</h5>
                                             <p>
-                                                Ea cetero periculis persecuti nec, te soleat denique scribentur vel. Qui te assum putent qui elitr animal. Habemus lobortis pericula.
+                                                Don't worry about coming to us for your needs, we bring the shop to you! Our experienced know how to handle dangerous and complicated work with great skill. 
                                             </p>
-                                            <a href="#" class="btn btn-inverse">
-                                                Learn More
-                                            </a>
+                                        </div>
+                                    </div>
+									<div class="col-md-6 col-sm-6">
+                                        <div class="item-service">
+                                            <i class="icon-insert-template icon-text icon-4x"></i>
+                                            <h5>Confined Space Welding</h5>
+                                            <p>
+                                                Work in confined spaces poses special hazards, but with proper planning, good equipment, and knowledge of the possibilities, weld inspections can go smoothly and without injury. Safety is our number one priority!
+                                            </p>
+                                        </div>
+                                    </div>
+									<div class="col-md-6 col-sm-6">
+                                        <div class="item-service">
+                                            <i class="icon-home3 icon-text icon-4x"></i>
+                                            <h5>Shop Fabrication</h5>
+                                            <p>
+                                                Have a project that needs custom fabriation? We have the facility to complete your needs.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -579,9 +458,9 @@
                             <div class="col-md-4 col-sm-6">
                                 <div class="item-feature">
                                     <i class="icon-magic-wand icon-square icon-4x"></i>
-                                    <h5>Custom Design</h5>
+                                    <h5>Weld Repair</h5>
                                     <p>
-                                    Ea cetero periculis persecuti nec, te soleat denique vel. Qui te assum putent.
+                                    Do you have welding needs on your existing infrastructure, installation or equipment? We provide the equipment, tools and services to help maintain your assets.
                                     </p>
                                 </div>
                             </div>
@@ -592,7 +471,7 @@
                                     <i class="icon-trophy2 icon-square icon-4x"></i>
                                     <h5>Guaranted</h5>
                                     <p>
-                                     Mutat definitionem id cum, nibh omittam delicatissimi ei eam ne vidit usu.
+                                     Guranteed to be done right the first time every time.
                                     </p>
                                 </div>
                             </div>
@@ -601,9 +480,9 @@
                             <div class="col-md-4 col-sm-6">
                                 <div class="item-feature">
                                     <i class="icon-alarm icon-square icon-4x"></i>
-                                    <h5>Quick Process</h5>
+                                    <h5>X-Ray Quality</h5>
                                     <p>
-                                     Sapientem suavitate mea ex, ne quo porro ullamcorper vero elit mnesa hum.
+                                     We provide x-ray quality work for our customers time and time again, our welders follow a strict quality control program that we take pride in to ensure you get a top quality product every time.
                                     </p>
                                 </div>
                             </div>
@@ -612,10 +491,10 @@
                             <div class="col-md-4 col-sm-6">
                                 <div class="item-feature">
                                     <i class="icon-smile icon-square icon-4x"></i>
-                                    <h5>Great Support</h5>
+                                    <h5>24 hour Support</h5>
                                     <p>
-                                    Vis soluta sapientem, est nulla soluta eu, cum id veri omnesque uo posse sit. 
-                                    </p>
+                                    Our specialist are available 24 hours for all of your emergency needs.
+									</p>
                                 </div>
                             </div>
                             <!-- End Feature 04 -->
@@ -625,7 +504,7 @@
                                     <i class="icon-profile icon-square icon-4x"></i>
                                     <h5>Certified</h5>
                                     <p>
-                                    Ei duo posse doctus. Verear argumen ea his, mei oblique omnesque Ius ad.
+                                    Our reliable technicians and welders are experienced and certified in a wide verity welding procedures and techniques.
                                     </p>
                                 </div>
                             </div>
@@ -636,40 +515,29 @@
                                     <i class="icon-hammer icon-square icon-4x"></i>
                                     <h5>Modern Tools</h5>
                                     <p>
-                                     Ei feugiat definitionem delica tissimi has. Ad mel graecis hendrerit his vidit.
+                                     We use some of the best equipment in the industry ensuring that our clients get the best service.
                                     </p>
                                 </div>
                             </div>
                             <!-- End Feature 06 -->
-                            <!-- Start Feature 07 -->
+							<!-- Start Feature 07 -->
                             <div class="col-md-4 col-sm-6">
                                 <div class="item-feature">
                                     <i class="icon-laptop2 icon-square icon-4x"></i>
-                                    <h5>Online Booking</h5>
+                                    <h5>Quality Work</h5>
                                     <p>
-                                     Mutat definitionem id cum, nibh omittam delicatissimi eam ne vidit phil.
+                                     Our welders can meet the highest quality standards to meet the challenges that will supply you with a quality job consistently. 
                                     </p>
                                 </div>
                             </div>
                             <!-- End Feature 07 -->
-                            <!-- Start Feature 08 -->
-                            <div class="col-md-4 col-sm-6">
-                                <div class="item-feature">
-                                    <i class="icon-cogs icon-square icon-4x"></i>
-                                    <h5>Maintenance</h5>
-                                    <p>
-                                     Nam at elit convenire ever titur, no mea assum officiis. Idque ignota ius at.
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- End Feature 08 -->
-                            <!-- Start Feature 09 -->
+							<!-- Start Feature 09 -->
                             <div class="col-md-4 col-sm-6">
                                 <div class="item-feature">
                                     <i class="icon-rocket icon-square icon-4x"></i>
-                                    <h5>Cheap & Fast</h5>
+                                    <h5>Fast and Efficent</h5>
                                     <p>
-                                     Pro ei regione maluisset ad nulla eloquentiam his an duo aeterno sed in.
+                                     Our welders can meet the highest quality standards to meet the challenges that will supply you with a quality job consistently. 
                                     </p>
                                 </div>
                             </div>
@@ -681,7 +549,7 @@
 		</div>
 	</div>
 	<!-- End features -->	
-	
+
 	<!-- Start gallery -->
 	<div id="gallery" class="wrapper half-gray-right">
 		<div class="gallery-overlay"></div>
@@ -689,7 +557,7 @@
 			<div class="row">
 				<div class="heading">
 					<div>
-						<span>Recent project done</span>
+						<span>Recent activities</span>
 						<h3>Gallery</h3>
 					</div>
 				</div>
@@ -699,10 +567,10 @@
 						<div class="col-md-8 wrap-filter">
 							<ul class="filter-items">
 								<li data-filter="" class="active"><span>All</span></li>
-								<li data-filter="building"><span>Building</span></li>
-								<li data-filter="interior"><span>Interior</span></li>
+								<li data-filter="welding"><span>Welding</span></li>
 								<li data-filter="painting"><span>Painting</span></li>
-								<li data-filter="graphic"><span>Graphic</span></li>
+								<li data-filter="structural"><span>Structural</span></li>
+								<li data-filter="giveback"><span>Giving Back</span></li>
 							</ul>
 						</div> 					
                         <!-- End gallery filter -->
@@ -710,121 +578,303 @@
                         <!-- Start Images Gallery -->
                         <div class="row wrap-gallery">
                             <div id="masonry-gallery" class="masonry gallery">
-                                <div class="grid-sizer col-md-4 col-sm-6 col-xs-6"></div>
+                                <div class="grid-sizer col-md-4 col-sm-6 col-xs-12"></div>
                                 <!-- Start Img 01 -->
-                                <div data-filter="graphic" class="grid-item col-md-4 col-sm-6 col-xs-6">
+                                <div data-filter="welding" class="grid-item col-md-4 col-sm-6 col-xs-12">
                                     <div class="item-gallery">
                                         <div class="action">
                                             <a href="portfolio-detail.html" class="link"><i class="icon-link"></i></a>
-                                            <a href="img/gallery/detail/img1.jpg" class="zoom"  data-pretty="prettyPhoto">
+                                            <a href="img/gallery/welding/welding1.jpg" class="zoom"  data-pretty="prettyPhoto">
                                                 <i class="icon-zoom-in"></i>
                                             </a>
                                         </div>
-                                        <img src="img/gallery/gallery1.jpg" alt="">
+                                        <img src="img/gallery/welding/welding1.jpg" alt="">
                                     </div>       
                                 </div>
                                 <!-- End Img 01 -->
                                 <!-- Start Img 02 -->
-                                <div data-filter="building" class="grid-item col-md-4 col-sm-6 col-xs-6">
+                                <div data-filter="welding" class="grid-item col-md-4 col-sm-6 col-xs-12">
                                     <div class="item-gallery">
                                         <div class="action">
                                             <a href="portfolio-detail.html" class="link"><i class="icon-link"></i></a>
-                                            <a href="img/gallery/detail/img2.jpg" class="zoom"  data-pretty="prettyPhoto">
+                                            <a href="img/gallery/welding/welding2.jpg" class="zoom"  data-pretty="prettyPhoto">
                                                 <i class="icon-zoom-in"></i>
                                             </a>
                                         </div>
-                                        <img src="img/gallery/gallery2.jpg" alt="">
+                                        <img src="img/gallery/welding/welding2.jpg" alt="">
+                                    </div>       
+                                </div>
+                                <!-- End Img 02 -->
+								<!-- Start Img 02 -->
+                                <div data-filter="welding" class="grid-item col-md-4 col-sm-6 col-xs-12">
+                                    <div class="item-gallery">
+                                        <div class="action">
+                                            <a href="portfolio-detail.html" class="link"><i class="icon-link"></i></a>
+                                            <a href="img/gallery/welding/welding3.jpg" class="zoom"  data-pretty="prettyPhoto">
+                                                <i class="icon-zoom-in"></i>
+                                            </a>
+                                        </div>
+                                        <img src="img/gallery/welding/welding3.jpg" alt="">
+                                    </div>       
+                                </div>
+                                <!-- End Img 02 -->
+								<!-- Start Img 02 -->
+                                <div data-filter="welding" class="grid-item col-md-4 col-sm-6 col-xs-12">
+                                    <div class="item-gallery">
+                                        <div class="action">
+                                            <a href="portfolio-detail.html" class="link"><i class="icon-link"></i></a>
+                                            <a href="img/gallery/welding/welding4.jpg" class="zoom"  data-pretty="prettyPhoto">
+                                                <i class="icon-zoom-in"></i>
+                                            </a>
+                                        </div>
+                                        <img src="img/gallery/welding/welding4.jpg" alt="">
+                                    </div>       
+                                </div>
+                                <!-- End Img 02 -->
+								<!-- Start Img 02 -->
+                                <div data-filter="welding" class="grid-item col-md-4 col-sm-6 col-xs-12">
+                                    <div class="item-gallery">
+                                        <div class="action">
+                                            <a href="portfolio-detail.html" class="link"><i class="icon-link"></i></a>
+                                            <a href="img/gallery/welding/welding5.jpg" class="zoom"  data-pretty="prettyPhoto">
+                                                <i class="icon-zoom-in"></i>
+                                            </a>
+                                        </div>
+                                        <img src="img/gallery/welding/welding5.jpg" alt="">
+                                    </div>       
+                                </div>
+                                <!-- End Img 02 -->
+								<!-- Start Img 02 -->
+                                <div data-filter="welding" class="grid-item col-md-4 col-sm-6 col-xs-12">
+                                    <div class="item-gallery">
+                                        <div class="action">
+                                            <a href="portfolio-detail.html" class="link"><i class="icon-link"></i></a>
+                                            <a href="img/gallery/welding/welding6.jpg" class="zoom"  data-pretty="prettyPhoto">
+                                                <i class="icon-zoom-in"></i>
+                                            </a>
+                                        </div>
+                                        <img src="img/gallery/welding/welding6.jpg" alt="">
+                                    </div>       
+                                </div>
+                                <!-- End Img 02 -->
+								<!-- Start Img 02 -->
+                                <div data-filter="welding" class="grid-item col-md-4 col-sm-6 col-xs-12">
+                                    <div class="item-gallery">
+                                        <div class="action">
+                                            <a href="portfolio-detail.html" class="link"><i class="icon-link"></i></a>
+                                            <a href="img/gallery/welding/welding7.jpg" class="zoom"  data-pretty="prettyPhoto">
+                                                <i class="icon-zoom-in"></i>
+                                            </a>
+                                        </div>
+                                        <img src="img/gallery/welding/welding7.jpg" alt="">
                                     </div>       
                                 </div>
                                 <!-- End Img 02 -->
                                 <!-- Start Img 03 -->
-                                <div data-filter="interior" class="grid-item col-md-4 col-sm-6 col-xs-6">
+                                <div data-filter="painting" class="grid-item col-md-4 col-sm-6 col-xs-12">
                                     <div class="item-gallery">
                                         <div class="action">
                                             <a href="portfolio-detail.html" class="link"><i class="icon-link"></i></a>
-                                            <a href="img/gallery/detail/img3.jpg" class="zoom"  data-pretty="prettyPhoto">
+                                            <a href="img/gallery/painting/painting1.jpg" class="zoom"  data-pretty="prettyPhoto">
                                                 <i class="icon-zoom-in"></i>
                                             </a>
                                         </div>
-                                        <img src="img/gallery/gallery3.jpg" alt="">
+                                        <img src="img/gallery/painting/painting1.jpg" alt="">
                                     </div>       
                                 </div>
                                 <!-- End Img 03 -->
                                 <!-- Start Img 04 -->
-                                <div data-filter="painting" class="grid-item col-md-4 col-sm-6 col-xs-6">
+                                <div data-filter="painting" class="grid-item col-md-4 col-sm-6 col-xs-12">
                                     <div class="item-gallery">
                                         <div class="action">
                                             <a href="portfolio-detail.html" class="link"><i class="icon-link"></i></a>
-                                            <a href="img/gallery/detail/img4.jpg" class="zoom"  data-pretty="prettyPhoto">
+                                            <a href="img/gallery/painting/painting2.jpg" class="zoom"  data-pretty="prettyPhoto">
                                                 <i class="icon-zoom-in"></i>
                                             </a>
                                         </div>
-                                        <img src="img/gallery/gallery4.jpg" alt="">
+                                        <img src="img/gallery/painting/painting2.jpg" alt="">
+                                    </div>       
+                                </div>
+                                <!-- End Img 04 -->
+                                <!-- Start Img 04 -->
+                                <div data-filter="painting" class="grid-item col-md-4 col-sm-6 col-xs-12">
+                                    <div class="item-gallery">
+                                        <div class="action">
+                                            <a href="portfolio-detail.html" class="link"><i class="icon-link"></i></a>
+                                            <a href="img/gallery/painting/painting3.jpg" class="zoom"  data-pretty="prettyPhoto">
+                                                <i class="icon-zoom-in"></i>
+                                            </a>
+                                        </div>
+                                        <img src="img/gallery/painting/painting3.jpg" alt="">
+                                    </div>       
+                                </div>
+                                <!-- End Img 04 -->
+                                <!-- Start Img 04 -->
+                                <div data-filter="painting" class="grid-item col-md-4 col-sm-6 col-xs-12">
+                                    <div class="item-gallery">
+                                        <div class="action">
+                                            <a href="portfolio-detail.html" class="link"><i class="icon-link"></i></a>
+                                            <a href="img/gallery/painting/painting4.jpg" class="zoom"  data-pretty="prettyPhoto">
+                                                <i class="icon-zoom-in"></i>
+                                            </a>
+                                        </div>
+                                        <img src="img/gallery/painting/painting4.jpg" alt="">
                                     </div>       
                                 </div>
                                 <!-- End Img 04 -->
                                 <!-- Start Img 05 -->
-                                <div data-filter="graphic" class="grid-item col-md-4 col-sm-6 col-xs-6">
+                                <div data-filter="structural" class="grid-item col-md-4 col-sm-6 col-xs-12">
                                     <div class="item-gallery">
                                         <div class="action">
                                             <a href="portfolio-detail.html" class="link"><i class="icon-link"></i></a>
-                                            <a href="img/gallery/detail/img5.jpg" class="zoom"  data-pretty="prettyPhoto">
+                                            <a href="img/gallery/structural/structural1.jpg" class="zoom"  data-pretty="prettyPhoto">
                                                 <i class="icon-zoom-in"></i>
                                             </a>
                                         </div>
-                                        <img src="img/gallery/gallery5.jpg" alt="">
+                                        <img src="img/gallery/structural/structural1.jpg" alt="">
                                     </div>       
                                 </div>
                                 <!-- End Img 05 -->
                                 <!-- Start Img 06 -->
-                                <div data-filter="interior" class="grid-item col-md-4 col-sm-6 col-xs-6">
+                                <div data-filter="structural" class="grid-item col-md-4 col-sm-6 col-xs-12">
                                     <div class="item-gallery">
                                         <div class="action">
                                             <a href="portfolio-detail.html" class="link"><i class="icon-link"></i></a>
-                                            <a href="img/gallery/detail/img6.jpg" class="zoom"  data-pretty="prettyPhoto">
+                                            <a href="img/gallery/structural/structural2.jpg" class="zoom"  data-pretty="prettyPhoto">
                                                 <i class="icon-zoom-in"></i>
                                             </a>
                                         </div>
-                                        <img src="img/gallery/gallery6.jpg" alt="">
+                                        <img src="img/gallery/structural/structural2.jpg" alt="">
                                     </div>       
                                 </div>
                                 <!-- End Img 06 -->
-                                <!-- Start Img 07 -->
-                                <div data-filter="painting" class="grid-item col-md-4 col-sm-6 col-xs-6">
+                                <!-- Start Img 06 -->
+                                <div data-filter="structural" class="grid-item col-md-4 col-sm-6 col-xs-12">
                                     <div class="item-gallery">
                                         <div class="action">
                                             <a href="portfolio-detail.html" class="link"><i class="icon-link"></i></a>
-                                            <a href="img/gallery/detail/img7.jpg" class="zoom"  data-pretty="prettyPhoto">
+                                            <a href="img/gallery/structural/structural3.jpg" class="zoom"  data-pretty="prettyPhoto">
                                                 <i class="icon-zoom-in"></i>
                                             </a>
                                         </div>
-                                        <img src="img/gallery/gallery7.jpg" alt="">
+                                        <img src="img/gallery/structural/structural3.jpg" alt="">
                                     </div>       
                                 </div>
-                                <!-- End Img 07 -->
-                                <!-- Start Img 08 -->
-                                <div data-filter="graphic" class="grid-item col-md-4 col-sm-6 col-xs-6">
+                                <!-- End Img 06 -->
+								<!-- Start Img 06 -->
+                                <div data-filter="structural" class="grid-item col-md-4 col-sm-6 col-xs-12">
                                     <div class="item-gallery">
                                         <div class="action">
                                             <a href="portfolio-detail.html" class="link"><i class="icon-link"></i></a>
-                                            <a href="img/gallery/detail/img8.jpg" class="zoom"  data-pretty="prettyPhoto">
+                                            <a href="img/gallery/structural/structural4.jpg" class="zoom"  data-pretty="prettyPhoto">
                                                 <i class="icon-zoom-in"></i>
                                             </a>
                                         </div>
-                                        <img src="img/gallery/gallery8.jpg" alt="">
+                                        <img src="img/gallery/structural/structural4.jpg" alt="">
+                                    </div>       
+                                </div>
+                                <!-- End Img 06 -->
+								<!-- Start Img 06 -->
+                                <div data-filter="structural" class="grid-item col-md-4 col-sm-6 col-xs-12">
+                                    <div class="item-gallery">
+                                        <div class="action">
+                                            <a href="portfolio-detail.html" class="link"><i class="icon-link"></i></a>
+                                            <a href="img/gallery/structural/structural5.jpg" class="zoom"  data-pretty="prettyPhoto">
+                                                <i class="icon-zoom-in"></i>
+                                            </a>
+                                        </div>
+                                        <img src="img/gallery/structural/structural5.jpg" alt="">
+                                    </div>       
+                                </div>
+                                <!-- End Img 06 -->
+                                <!-- Start Img 08 -->
+                                <div data-filter="giveback" class="grid-item col-md-4 col-sm-6 col-xs-12">
+                                    <div class="item-gallery">
+                                        <div class="action">
+                                            <a href="portfolio-detail.html" class="link"><i class="icon-link"></i></a>
+                                            <a href="img/gallery/giveback/haliburtonsponsor1.jpg" class="zoom"  data-pretty="prettyPhoto">
+                                                <i class="icon-zoom-in"></i>
+                                            </a>
+                                        </div>
+                                        <img src="img/gallery/giveback/haliburtonsponsor1.jpg" alt="">
                                     </div>       
                                 </div>
                                 <!-- End Img 08 -->
                                 <!-- Start Img 09 -->
-                                <div data-filter="interior" class="grid-item col-md-4 col-sm-6 col-xs-6">
+                                <div data-filter="giveback" class="grid-item col-md-4 col-sm-6 col-xs-12">
                                     <div class="item-gallery">
                                         <div class="action">
                                             <a href="portfolio-detail.html" class="link"><i class="icon-link"></i></a>
-                                            <a href="img/gallery/detail/img9.jpg" class="zoom"  data-pretty="prettyPhoto">
+                                            <a href="img/gallery/giveback/haliburtonsponsor2.jpg" class="zoom"  data-pretty="prettyPhoto">
                                                 <i class="icon-zoom-in"></i>
                                             </a>
                                         </div>
-                                        <img src="img/gallery/gallery9.jpg" alt="">
+                                        <img src="img/gallery/giveback/haliburtonsponsor2.jpg" alt="">
+                                    </div>       
+                                </div>
+                                <!-- End Img 09 -->
+                                <!-- Start Img 09 -->
+                                <div data-filter="giveback" class="grid-item col-md-4 col-sm-6 col-xs-12">
+                                    <div class="item-gallery">
+                                        <div class="action">
+                                            <a href="portfolio-detail.html" class="link"><i class="icon-link"></i></a>
+                                            <a href="img/gallery/giveback/haliburtonsponsor3.jpg" class="zoom"  data-pretty="prettyPhoto">
+                                                <i class="icon-zoom-in"></i>
+                                            </a>
+                                        </div>
+                                        <img src="img/gallery/giveback/haliburtonsponsor3.jpg" alt="">
+                                    </div>       
+                                </div>
+                                <!-- End Img 09 -->
+								<!-- Start Img 09 -->
+                                <div data-filter="giveback" class="grid-item col-md-4 col-sm-6 col-xs-12">
+                                    <div class="item-gallery">
+                                        <div class="action">
+                                            <a href="portfolio-detail.html" class="link"><i class="icon-link"></i></a>
+                                            <a href="img/gallery/giveback/livelife1.jpg" class="zoom"  data-pretty="prettyPhoto">
+                                                <i class="icon-zoom-in"></i>
+                                            </a>
+                                        </div>
+                                        <img src="img/gallery/giveback/livelife1.jpg" alt="">
+                                    </div>       
+                                </div>
+                                <!-- End Img 09 -->
+								<!-- Start Img 09 -->
+                                <div data-filter="giveback" class="grid-item col-md-4 col-sm-6 col-xs-12">
+                                    <div class="item-gallery">
+                                        <div class="action">
+                                            <a href="portfolio-detail.html" class="link"><i class="icon-link"></i></a>
+                                            <a href="img/gallery/giveback/livelife2.jpg" class="zoom"  data-pretty="prettyPhoto">
+                                                <i class="icon-zoom-in"></i>
+                                            </a>
+                                        </div>
+                                        <img src="img/gallery/giveback/livelife2.jpg" alt="">
+                                    </div>       
+                                </div>
+                                <!-- End Img 09 -->
+								<!-- Start Img 09 -->
+                                <div data-filter="giveback" class="grid-item col-md-4 col-sm-6 col-xs-12">
+                                    <div class="item-gallery">
+                                        <div class="action">
+                                            <a href="portfolio-detail.html" class="link"><i class="icon-link"></i></a>
+                                            <a href="img/gallery/giveback/livelife3.jpg" class="zoom"  data-pretty="prettyPhoto">
+                                                <i class="icon-zoom-in"></i>
+                                            </a>
+                                        </div>
+                                        <img src="img/gallery/giveback/livelife3.jpg" alt="">
+                                    </div>       
+                                </div>
+                                <!-- End Img 09 -->
+								<!-- Start Img 09 -->
+                                <div data-filter="giveback" class="grid-item col-md-4 col-sm-6 col-xs-12">
+                                    <div class="item-gallery">
+                                        <div class="action">
+                                            <a href="portfolio-detail.html" class="link"><i class="icon-link"></i></a>
+                                            <a href="img/gallery/giveback/livelife4.jpg" class="zoom"  data-pretty="prettyPhoto">
+                                                <i class="icon-zoom-in"></i>
+                                            </a>
+                                        </div>
+                                        <img src="img/gallery/giveback/livelife4.jpg" alt="">
                                     </div>       
                                 </div>
                                 <!-- End Img 09 -->
@@ -837,34 +887,6 @@
 		</div>
 	</div>
 	<!-- End gallery -->
-	
-	<!-- Start subscribe -->
-	<div class="dark-wrapper">
-		<div class="container">
-			<div class="dark-section">
-				<div class="row">
-					<div class="icon-title">
-						<i class="icon-gift2"></i>
-					</div>
-					<div class="col-md-4 col-md-offset-2">
-						<div class="dark-contain">
-							<h5>Subscribe to our newsletter</h5>
-							<p>
-							Get notified and stay update
-							</p>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="form-subscribe">
-							<input type="text" class="subscribe-input" placeholder="Enter your email address">
-							<input type="submit" value="subscribe" class="btn btn-lg btn-primary">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>	
-	<!-- End subscribe -->
 	
 	<!-- Start contact -->
 	<div id="contact" class="wrapper half-gray-left">
@@ -911,58 +933,6 @@
 		</div>
 	</div>
 	<!-- End contact -->	
-	
-	<!-- Start client -->
-	<div class="client-wrapper">
-		<div class="client-overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-10 col-sm-10 col-md-offset-2 col-sm-offset-2">
-					<div class="wrap-client">
-						<!-- Start Navigation -->
-						<div class="navigation nav-client">
-						  <a class="btn btn-prev prev-client"><i class="left"></i></a>
-						  <a class="btn btn-next next-client"><i class="right"></i></a>
-						</div>
-						<!-- End Navigation -->
-						
-						<!-- Start Client Carousel -->
-						<div id="owl-client" class="owl-carousel owl-theme">
-							<div class="item-client">
-								<a href="#">
-									<img src="img/clients/logo-1.png" alt="">
-								</a>    
-							</div>
-							<div class="item-client">
-								<a href="#">
-									<img src="img/clients/logo-2.png" alt="">
-								</a>    
-							</div>
-							<div class="item-client">
-								<a href="#">
-									<img src="img/clients/logo-3.png" alt="">
-								</a>    
-							</div>
-							<div class="item-client">
-								<a href="#">
-									<img src="img/clients/logo-4.png" alt="">
-								</a>    
-							</div>
-							<div class="item-client">
-								<a href="#">
-									<img src="img/clients/logo-1.png" alt="">
-								</a>    
-							</div>
-						</div>
-						<!-- End Client Carousel -->
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- End client -->
-	
-    <div class="clearfix"></div>
     
     <!-- Start Footer -->
     <footer>
@@ -978,50 +948,8 @@
                             </div>
                             <div class="body-widget">
                                 <p>
-                                    An paulo scribentur has. Scripta feugait partiendo sea ei, usu delenit alienum inciderint et, vis eu adhuc postea. Has oblique minimum honestatis cu.
+                                    At Mario&#39s Welding we’re committed to offering the services our customers need and ensuring they receive the highest quality and care, regardless of how large or small the job may be.
                                 </p>
-                            </div>
-                        </div>
-                        <!-- End Widget -->
-                    </div>
-                    <div class="col-md-4">
-                        <!-- Start Widget -->
-                        <div class="widget-footer">
-                            <div class="title-widget">
-                                <h5>Recent Post</h5>
-                            </div>
-                            <div class="body-widget">
-                                <!-- Start Recent Post -->
-                                <ul class="recent-post">
-                                    <li>
-                                        <div class="meta-post">
-                                            <span class="date">24</span>
-                                            <span class="month">Nov</span>
-                                        </div>
-                                        <a href="#">
-                                            Postea has oblique minimum.
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <div class="meta-post">
-                                            <span class="date">22</span>
-                                            <span class="month">Nov</span>
-                                        </div>
-                                        <a href="#">
-                                            Postea has oblique minimum.
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <div class="meta-post">
-                                            <span class="date">20</span>
-                                            <span class="month">Nov</span>
-                                        </div>
-                                        <a href="#">
-                                            Mel mutat oblique te ei sed mucius 
-                                        </a>
-                                    </li>
-                                </ul>
-                                <!-- End Recent Post -->
                             </div>
                         </div>
                         <!-- End Widget -->
@@ -1036,28 +964,13 @@
                                 <!-- Start Social Network -->
                                 <ul class="social-network">
                                     <li>
-                                        <a href="#">
+                                        <a href="https://www.facebook.com/MariosWelding210">
                                             <i class="icon-facebook"></i>
                                         </a>
-                                    </li>
+                                    </li>                                   
                                     <li>
-                                        <a href="#">
-                                            <i class="icon-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
+                                        <a href="https://plus.google.com/114650581786016920751">
                                             <i class="icon-googleplus"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="icon-linkedin"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="icon-dribbble"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -1097,9 +1010,10 @@
     <!-- Bootstrap Scrollspy -->
     <script src="js/scrollspy/scrollspy.js"></script>  
 	
-	<!-- vegas -->
-	<script src="js/vegas/jquery.vegas.min.js"></script>
-	<script src="js/vegas/setting.js"></script>
+    <!-- Master Slider -->
+    <script type="text/javascript" src="js/jssor/jssor.js"></script>
+    <script type="text/javascript" src="js/jssor/jssor.slider.js"></script>
+    <script type="text/javascript" src="js/jssor/setting.js"></script>
       
     <!-- Owl Carousel -->
     <script src="js/owl/owl.carousel.min.js"></script> 
