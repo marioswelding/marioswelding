@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="ico/favicon.png">
+
+    <title>Dangdosan modern construction template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Font -->
+	<link href="fonts/open-sans/stylesheet.css" rel="stylesheet">
+	<link href="fonts/oswald/stylesheet.css" rel="stylesheet">
+	
+    <!-- Icons -->
+    <link href="css/icons.css" rel="stylesheet">
+	
+    <!-- Custom bootstrap styles -->
+    <link href="css/overwrite.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Styles for color skins -->
+    <link id="skin" href="skins/default.css" rel="stylesheet">
+	
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+	<!-- Start preloading -->
+	<div id="loading" class="loading-invisible">
+		<div class="loading-center">
+			<div class="loading-center-absolute">
+				<div class="object" id="first_object"></div>
+				<div class="object" id="second_object"></div>
+				<div class="object" id="third_object"></div>
+			</div>
+			<p>Please wait...</p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		  document.getElementById("loading").className = "loading-visible";
+		  var hideDiv = function(){document.getElementById("loading").className = "loading-invisible";};
+		  var oldLoad = window.onload;
+		  var newLoad = oldLoad ? function(){hideDiv.call(this);oldLoad.call(this);} : hideDiv;
+		  window.onload = newLoad;
+	</script>
+	<!-- End preloading -->
+	
+	<!-- Start top section -->
+	<div class="top-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 col-sm-8">
+					<ul class="top-contact">
+						<li>
+							<i class="icon-tablet icon-circle"></i>
+							<h6>Call center</h6>
+							<span>+6221-4356-4456-62</span>
+						</li>
+						<li>
+							<i class="icon-envelope icon-circle"></i>
+							<h6>Email</h6>
+							<span>info@yourdomain.com</span>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-4 col-sm-4 col-md-offset-3">
+					<form id="search-form">
+						<fieldset class="search-wrapper">
+							<input type="text" class="search" name="search" id="search" placeholder="Search heare..." />
+							<button type="button"><i class="icon-search2"></i></button>
+						</fieldset>
+					</form>	
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End top section -->
+	
+	<!-- Start navbar -->
+	<nav class="navbar navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img src="img/logo.png" alt="" /></a>
+				</div>
+				
+				<div id="navbar" class="collapse navbar-collapse navbar-right">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html#home">Home</a></li>
+						<li><a href="index.html#about">About</a></li>
+						<li><a href="index.html#team">Team</a></li>
+						<li><a href="index.html#services">Services</a></li>
+						<li><a href="index.html#features">Features</a></li>
+						<li><a href="index.html#gallery">Gallery</a></li>
+						<li class="active"><a href="blog.html">Blog</a></li>
+						<li><a href="index.html#contact">Contact</a></li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</div>
+	</nav>
+	<!-- End navbar -->
+	
+	<div class="clearfix"></div>
+	
+	<!-- Start inner head -->
+	<div id="top" class="parallax inner-head" data-background="img/inner-head-bg.jpg" data-speed="0.8">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<h1>Single post</h1>
+					<p>
+					Diam definiebas conclusionemque in ius pro ea dicam 
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End inner head -->
+	
+	<!-- Start blog -->
+	<div class="wrapper half-gray-right">
+		<div class="container">
+			<div class="row">
+				<div class="heading">
+					<div>
+						<span>News & article</span>
+						<h3>Blog</h3>
+					</div>
+				</div>
+
+				<div class="col-md-10 col-md-offset-2">
+					<div class="contain">
+						<!-- Start breadcrumb -->
+						<ol class="breadcrumb">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Page</a></li>
+							<li class="active">Single post</li>
+						</ol>
+						<!-- End breadcrumb -->
+						
+						<!-- Start aside -->
+						<aside>
+							<div class="widget">
+								<h5>Categories</h5>
+								<ul class="cat">
+									<li><a href="#">Buliding</a></li>
+									<li><a href="#">Construction</a></li>
+									<li><a href="#">Tools</a></li>
+									<li><a href="#">Architecture</a></li>
+									<li><a href="#">Interior</a></li>
+									<li><a href="#">Painting</a></li>
+								</ul>
+							</div>
+							<div class="widget">
+								<h5>Recent post</h5>
+								<!-- Start Recent Post -->
+								<ul class="recent-post">
+									<li>
+										<div class="meta-post">
+											<span class="date">24</span>
+											<span class="month">Nov</span>
+										</div>
+										<a href="#">Postea has oblique minimum.</a>
+									</li>
+									<li>
+										<div class="meta-post">
+											<span class="date">22</span>
+											<span class="month">Nov</span>
+										</div>
+										<a href="#">Postea has oblique minimum.</a>
+									</li>
+									<li>
+										<div class="meta-post">
+											<span class="date">20</span>
+											<span class="month">Nov</span>
+										</div>
+										<a href="#">Mel mutat oblique te ei sed mucius </a>
+									</li>
+								</ul>
+								<!-- End Recent Post -->
+							</div>
+							<div class="widget">
+								<h5>Recent comments</h5>
+								<ul class="recent-comment">
+									<li>
+										<blockquote>
+										Qui te assum putent aqui elitr animal...
+										</blockquote>
+									</li>
+									<li>
+										<blockquote>
+										Duo an eius erroribus est at nostro...
+										</blockquote>
+									</li>
+									<li>
+										<blockquote>
+										His illud dictas accusam ei minim ...
+										</blockquote>
+									</li>
+								</ul>
+							</div>
+							<div class="widget">
+								<h5>Tag widget</h5>
+								<ul class="tags">
+									<li><a href="#">Architecture (2)</a></li>
+									<li><a href="#">Tools (3)</a></li>
+									<li><a href="#">Building (1)</a> </li>
+									<li><a href="#">Works (2)</a></li>
+									<li><a href="#">Paint (3)</a></li>
+									<li><a href="#">interior (1)</a> </li>
+								</ul>
+							</div>
+						</aside>
+						<!-- End aside -->
+						
+						<!-- Start single post -->
+						<div class="row single-post">
+							<!-- Start article -->
+							<article>
+								<div class="col-md-12">
+									<div class="article-media">
+										<ul class="post-meta">
+											<li>
+												<i class="icon-calendar2"></i>
+												<a href="#">24/11/15</a>
+											</li>
+											<li>
+												<i class="icon-user"></i>
+												<a href="#">John doe</a>
+											</li>
+											<li>
+												<i class="icon-bubbles2"></i>
+												<a href="#">0 Comments</a>
+											</li>
+										</ul>
+										<a href="#"><img src="img/blog/large/img1.jpg" class="img-responsive thumbnail" alt="" /></a>
+									</div>
+
+									<h5><a href="#">Ea cetero periculis persecuti</a></h5>
+									<ul class="article-meta">
+										<li><i class="icon-price-tags"></i> <a href="#">Architecture,</a> <a href="#">Building ,</a> <a href="#">Tools</a></li>
+										<li><i class="icon-folder-open"></i> <a href="#">Construction</a></li>
+									</ul>
+									<p>
+									Movet tamquam scribentur at mea, ne ignota isque scaevola mea, ad salutandi explicari nam. At nec petentium incorrupte, ex primis saperet liberavisse has. Ullum epicuri no vel, vix ut rebum iracundia vulputate. Ea cetero periculis persecuti nec, te soleat denique scribentur vel. Qui te assum putent. At qui elitr animal. Habemus lobortis pericula no vis. Uas mediocrem. 
+									</p>
+									<p>
+									Duis luptatum complectitur est at, no sed elitr essent. Te nec soleat delectus, assum saperet propriae ius ut. Te cum doming suscipit suavitate, meliore inermis an ius. Habeo suavitate qui te, duo aliquando repudiandae ei, qui facilisis mediocritatem cu. Tollit placerat constituto at nec, dolores blandit ne mei.
+									</p>
+									<a href="#"><img src="img/blog/img3.jpg" class="thumbnail alignleft" alt="" /></a>
+									<p>
+									Lorem ipsum dolor sit amet, alia iuvaret dolores his ea, cu sea etiam prompta. Vis id vero meliore consequuntur, id usu paulo laudem nostro. Nam at iisque nonumes vivendo, facer constituto vel cu, assueverit efficiantur eu sed. Ut sit lorem periculis, atqui lucilius te sit. Animal explicari gloriatur quo ut, has ubique ocurreret adipiscing id.
+									</p>
+									<p>
+									Ei pri tation intellegebat. Aeterno electram an mei. Sea possim recteque argumentum in. Minimum percipitur vituperatoribus at has, ex mea eruditi nostrum salutandi, nam inermis necessitatibus ne. Sea minimum fastidii delicatissimi at, nam doctus expetendis adversarium ea. Iriure phaedrum pertinax in eos. Legimus admodum id duo.
+									</p>
+									<p>
+									Movet tamquam scribentur at mea, ne ignota isque scaevola mea, ad salutandi explicari nam. At nec petentium incorrupte, ex primis saperet liberavisse has. Ullum epicuri no vel, vix ut rebum iracundia vulputate. Ea cetero periculis persecuti nec, te soleat denique scribentur vel. Qui te assum putent. At qui elitr animal. Habemus lobortis pericula no vis. Uas mediocrem. 
+									</p>
+									<a href="#"><img src="img/blog/img3.jpg" class="thumbnail alignright" alt="" /></a>
+									<p>
+									Lorem ipsum dolor sit amet, alia iuvaret dolores his ea, cu sea etiam prompta. Vis id vero meliore consequuntur, id usu paulo laudem nostro. Nam at iisque nonumes vivendo, facer constituto vel cu, assueverit efficiantur eu sed. Ut sit lorem periculis, atqui lucilius te sit. Animal explicari gloriatur quo ut, has ubique ocurreret adipiscing id.
+									</p>
+									<p>
+									Ei pri tation intellegebat. Aeterno electram an mei. Sea possim recteque argumentum in. Minimum percipitur vituperatoribus at has, ex mea eruditi nostrum salutandi, nam inermis necessitatibus ne. Sea minimum fastidii delicatissimi at, nam doctus expetendis adversarium ea. Iriure phaedrum pertinax in eos. Legimus admodum id duo.
+									</p>
+									<p>
+									Movet tamquam scribentur at mea, ne ignota isque scaevola mea, ad salutandi explicari nam. At nec petentium incorrupte, ex primis saperet liberavisse has. Ullum epicuri no vel, vix ut rebum iracundia vulputate. Ea cetero periculis persecuti nec, te soleat denique scribentur vel. Qui te assum putent. At qui elitr animal. Habemus lobortis pericula no vis. Uas mediocrem. 
+									</p>
+								</div>
+							</article>
+							<!-- End article -->
+							
+							<!-- Start comments -->
+							<div class="col-md-12">
+								<div class="comment-wrapper">
+									<h5>Comments (3)</h5>
+									<div class="media">
+										<div class="media-left">
+											<a href="#">
+												<img class="media-object" src="img/blog/avatar/author01.jpg" alt="" />
+											</a>
+										</div>
+										<div class="media-body">
+											<h6 class="media-heading"><a href="#">Janny doe</a></h6>
+											<p>
+											Sensibus salutandi qualisque vix cu, eu per saperet fastidii. Unum postea alienum vis ei, ea vim paulo mediocrem hendrerit. An ipsum partem eum, augue aliquid at pri.
+											</p>
+											<p class="reply"><a href="#"><i class="fa fa-link"></i> Reply</a></p>
+										</div>
+									</div>
+						
+									<div class="media">
+										<div class="media-left">
+											<a href="#">
+												<img class="media-object" src="img/blog/avatar/author02.jpg" alt="" />
+											</a>
+										</div>
+										<div class="media-body">
+											<h6 class="media-heading"><a href="#">John doe</a></h6>
+											<p>
+											Ea sea reque atomorum interpretaris, ex legere propriae cum. Ei eam propriae probatus. Vim illum dolor tamquam in. No omnes nullam inciderint ius, qui ad sale simul. Primis aeterno assueverit mei ut, ei reque primis volutpat his.
+											</p>
+											<p class="reply"><a href="#"><i class="fa fa-link"></i> Reply</a></p>
+											<div class="media">
+												<div class="media-left">
+													<a href="#">
+														<img class="media-object" src="img/blog/avatar/author03.jpg" alt="" />
+													</a>
+												</div>
+												<div class="media-body">
+													<h6 class="media-heading"><a href="#">Jenny doe</a></h6>
+													<p>
+													Et insolens assentior nec, id mea delicatissimi concludaturque. Ne vis tantas melius quaestio, mucius semper ad mea.
+													</p>
+													<p class="reply"><a href="#"><i class="icon-link"></i> Reply</a></p>
+												</div>
+											</div>
+											<div class="media">
+												<div class="media-left">
+													<a href="#">
+														<img class="media-object" src="img/blog/avatar/author02.jpg" alt="" />
+													</a>
+												</div>
+												<div class="media-body">
+													<h6 class="media-heading"><a href="#">John doe</a></h6>
+													<p>
+													Ea sea reque atomorum interpretaris, ex legere propriae cum. Ei eam propriae probatus. Vim illum dolor tamquam in. No omnes nullam inciderint ius, qui ad sale simul. Primis aeterno assueverit mei ut, ei reque primis volutpat his.
+													</p>
+													<p class="reply"><a href="#"><i class="fa fa-link"></i> Reply</a></p>
+												</div>
+											</div>
+										</div>
+									</div>
+						
+									<div class="media">
+										<div class="media-left">
+											<a href="#">
+												<img class="media-object" src="img/blog/avatar/author04.jpg" alt="" />
+											</a>
+										</div>
+										<div class="media-body">
+											<h6 class="media-heading"><a href="#">Jenny doe</a></h6>
+											<p>
+											Ea meis menandri mei, ex nec malis legendos, quot inani ancillae cu sed. Suas scaevola ius ex, aeque recusabo an duo. Qui brute eloquentiam no. Nibh dicant cotidieque no pri, movet copiosae sit te. Ut summo solet pri, an molestiae assentior suscipiantur mea.
+											</p>
+											<p class="reply"><a href="#"><i class="fa fa-link"></i> Reply</a></p>
+										</div>
+									</div>
+						
+									<!-- Start leave comments -->
+									<div class="leave-comments">
+										<h5>Leave comments</h5>
+										<form class="row">
+											<div class="col-md-6">
+												<input class="form-control input-lg" type="text" name="name" placeholder="Enter your full name..." />
+											</div>
+											<div class="col-md-6">
+												<input class="form-control input-lg" type="text" name="name" placeholder="Enter your website url..." />
+											</div>
+											<div class="col-md-12">
+												<textarea class="form-control input-lg" rows="9" name="message" placeholder="Your comment here..."></textarea>	
+											</div>
+											<div class="col-md-12">
+												<input type="submit" value="leave comment" class="btn btn-primary btn-lg" name="Submit" />
+											</div>							
+										</form>
+									</div>
+									<!-- End leave comments -->						
+								</div>
+							</div>
+							<!-- End comments -->
+						</div>
+						<!-- End single post -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End blog -->
+
+	
+    <div class="clearfix"></div>
+    
+    <!-- Start Footer -->
+    <footer>
+        <!-- Start Main Footer -->
+        <div class="main-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <!-- Start Widget -->
+                        <div class="widget-footer">
+                            <div class="title-widget">
+                                <h5>About Us</h5>
+                            </div>
+                            <div class="body-widget">
+                                <p>
+                                    An paulo scribentur has. Scripta feugait partiendo sea ei, usu delenit alienum inciderint et, vis eu adhuc postea. Has oblique minimum honestatis cu.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End Widget -->
+                    </div>
+                    <div class="col-md-4">
+                        <!-- Start Widget -->
+                        <div class="widget-footer">
+                            <div class="title-widget">
+                                <h5>Recent Post</h5>
+                            </div>
+                            <div class="body-widget">
+                                <!-- Start Recent Post -->
+                                <ul class="recent-post">
+                                    <li>
+                                        <div class="meta-post">
+                                            <span class="date">24</span>
+                                            <span class="month">Nov</span>
+                                        </div>
+                                        <a href="#">
+                                            Postea has oblique minimum.
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <div class="meta-post">
+                                            <span class="date">22</span>
+                                            <span class="month">Nov</span>
+                                        </div>
+                                        <a href="#">
+                                            Postea has oblique minimum.
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <div class="meta-post">
+                                            <span class="date">20</span>
+                                            <span class="month">Nov</span>
+                                        </div>
+                                        <a href="#">
+                                            Mel mutat oblique te ei sed mucius 
+                                        </a>
+                                    </li>
+                                </ul>
+                                <!-- End Recent Post -->
+                            </div>
+                        </div>
+                        <!-- End Widget -->
+                    </div>
+                    <div class="col-md-4">
+                        <!-- Start Widget -->
+                        <div class="widget-footer">
+                            <div class="title-widget">
+                                <h5>Follow Us</h5>
+                            </div>
+                            <div class="body-widget">
+                                <!-- Start Social Network -->
+                                <ul class="social-network">
+                                    <li>
+                                        <a href="#">
+                                            <i class="icon-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="icon-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="icon-googleplus"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="icon-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="icon-dribbble"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <!-- End Social Network -->
+                            </div>
+                        </div>
+                        <!-- End Widget -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Main Footer -->
+		
+        <!-- Start Sub Footer -->
+        <div class="sub-footer">
+            2015 &copy; Copyright <a href="themeforest.net/user/nce18cex">nce18cex</a>. All rights Reserved.
+        </div>
+        <!-- End Sub Footer -->
+    </footer> 
+    <!-- End Footer -->  
+	
+    <!-- Start Scroll to top -->  
+    <div class="scroll-top scroll">
+        <a href="#top"><i class="icon-arrow-up2"></i></a>  
+    </div>  
+    <!-- End Scroll to top -->  
+	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+	<script src="js/jquery.easing-1.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+	
+    <!-- Bootstrap Scrollspy -->
+    <script src="js/scrollspy/scrollspy.js"></script>  
+	
+    <!-- Parallax -->
+	<script src="js/parallax/jquery.parallax-1.1.3.js"></script>
+    <script src="js/parallax/setting.js"></script>  
+	
+	<!-- custom javascript -->
+	<script src="js/custom.js"></script>
+  </body>
+</html>
