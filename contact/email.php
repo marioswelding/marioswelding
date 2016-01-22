@@ -5,7 +5,7 @@ $email = $_POST['email'];
 $subject = "NEW-Website Contact";
 $message = $_POST['message'];
  
-$to = 'marioguerra@marios-welding.com';
+$to = 'jgarza81@gmail.com';
 $message = 'Name : '.$name.'
 Email : '.$email.'
 
