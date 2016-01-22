@@ -2,7 +2,7 @@
 // Here we get all the information from the fields sent over by the form.
 $name = $_POST['name'];
 $email = $_POST['email'];
-$subject = "NEW-Website Contact";
+$subject = "New Website Contact";
 $message = $_POST['message'];
  
 $to = 'jgarza81@gmail.com';
